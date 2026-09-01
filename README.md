@@ -1,15 +1,15 @@
-# **SOURCE_NAME**
+# **joey-bridgething-apps**
 
-**SOURCE_DESCRIPTION**
+**joey's bridgething apps (mostly testing new create-bridgething layout lol)**
 
 Webapps for the Spotify Car Thing running [bridgething](https://bridgething.com).
 
 ## First run
 
-1. Push this repo to `https://github.com/JoeyEamigh/bridgething-apps-source`.
+1. Push this repo to `https://github.com/JoeyEamigh/joey-bridgething-apps`.
 2. In **Settings > Pages**, set the source to **Deploy from a branch**, branch `gh-pages`, folder `/ (root)`.
 
-The catalog is published to `https://joeyeamigh.github.io/bridgething-apps-source/catalog.v1.json`, which can be submitted to <bridgething.com/apps>
+The catalog is published to `https://joeyeamigh.github.io/joey-bridgething-apps/catalog.v1.json`, which can be submitted to <bridgething.com/apps>
 
 ## Develop
 
