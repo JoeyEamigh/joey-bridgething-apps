@@ -2,7 +2,7 @@
   "id": "01a05a38-cf37-768b-9ab6-bb274f8396ea",
   "name": "Claude Usage",
   "version": "0.1.0",
-  "description": "Claude Code limits, machine-wide token history and live sessions",
+  "description": "Claude Code limits, machine-wide token history and live sessions (i was letting claude try out the bridgething agent skills)",
   "icon": "icon.png",
   "settings": "settings.html",
   "config": [
