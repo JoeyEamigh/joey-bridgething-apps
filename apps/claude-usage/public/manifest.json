@@ -1,0 +1,113 @@
+{
+  "id": "01a05a38-cf37-768b-9ab6-bb274f8396ea",
+  "name": "Claude Usage",
+  "version": "0.1.0",
+  "description": "Claude Code limits, machine-wide token history and live sessions",
+  "icon": "icon.png",
+  "settings": "settings.html",
+  "config": [
+    {
+      "type": "string",
+      "data": {
+        "key": "accounts",
+        "label": "Accounts (JSON list; empty auto-discovers)",
+        "pattern": null,
+        "minLength": null,
+        "maxLength": null,
+        "default": ""
+      }
+    },
+    {
+      "type": "number",
+      "data": {
+        "key": "pollSeconds",
+        "label": "Seconds between usage readings",
+        "min": 15,
+        "max": 600,
+        "step": 5,
+        "default": 120
+      }
+    },
+    {
+      "type": "enum",
+      "data": {
+        "key": "home",
+        "label": "Screen to open on",
+        "choices": [
+          "usage",
+          "machine",
+          "sessions",
+          "ambient"
+        ],
+        "default": "usage"
+      }
+    },
+    {
+      "type": "boolean",
+      "data": {
+        "key": "ambientIdle",
+        "label": "Fall back to the ambient screen",
+        "default": true
+      }
+    },
+    {
+      "type": "boolean",
+      "data": {
+        "key": "hooks",
+        "label": "Answer permission prompts from the dial. Installs a global PreToolUse hook in settings.json",
+        "default": false
+      }
+    },
+    {
+      "type": "string",
+      "data": {
+        "key": "hookTools",
+        "label": "Tools the hook intercepts (matcher)",
+        "pattern": null,
+        "minLength": null,
+        "maxLength": null,
+        "default": "Bash|Write|Edit|NotebookEdit"
+      }
+    },
+    {
+      "type": "number",
+      "data": {
+        "key": "hookSeconds",
+        "label": "Seconds to hold a prompt open on the device",
+        "min": 5,
+        "max": 120,
+        "step": 5,
+        "default": 25
+      }
+    },
+    {
+      "type": "number",
+      "data": {
+        "key": "hookPort",
+        "label": "Loopback port the hook posts to",
+        "min": 1024,
+        "max": 65535,
+        "step": 1,
+        "default": 8791
+      }
+    }
+  ],
+  "permissions": [],
+  "art": {
+    "heroPx": 248,
+    "thumbPx": 96
+  },
+  "extension": {
+    "entry": "extension/desktop.mjs",
+    "permissions": [
+      "read:~",
+      "write:~",
+      "net:api.anthropic.com",
+      "net:platform.claude.com",
+      "net:127.0.0.1",
+      "run:security",
+      "env"
+    ],
+    "api": 1
+  }
+}
