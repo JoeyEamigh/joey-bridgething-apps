@@ -1,0 +1,60 @@
+{
+  "$schema": "https://apps.bridgething.com/schemas/catalog/v1.json",
+  "schema": "catalog.v1",
+  "updated_at": "2026-09-01T03:03:24.170Z",
+  "repo": {
+    "name": "joey's bridgething apps",
+    "description": "apps for bridgething by joey",
+    "homepage": "https://github.com/JoeyEamigh/joey-bridgething-apps",
+    "icon": null
+  },
+  "apps": [
+    {
+      "id": "01a05a38-cf37-768b-9ab6-bb274f8396ea",
+      "name": "Claude Usage",
+      "description": "Claude Code limits, machine-wide token history and live sessions",
+      "author": "Joey",
+      "icon": "https://joeyeamigh.github.io/joey-bridgething-apps/icons/01a05a38-cf37-768b-9ab6-bb274f8396ea.png",
+      "screenshots": [
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a05a38-cf37-768b-9ab6-bb274f8396ea/1-tokens.png",
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a05a38-cf37-768b-9ab6-bb274f8396ea/2-sessions.png",
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a05a38-cf37-768b-9ab6-bb274f8396ea/3-ambient.png",
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a05a38-cf37-768b-9ab6-bb274f8396ea/4-prompt.png"
+      ],
+      "homepage": "https://github.com/JoeyEamigh/joey-bridgething-apps",
+      "source": "https://github.com/JoeyEamigh/joey-bridgething-apps",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "released_at": "2026-09-01T03:03:24.166Z",
+          "download": {
+            "url": "https://joeyeamigh.github.io/joey-bridgething-apps/r/01a05a38-cf37-768b-9ab6-bb274f8396ea/0.1.0.zip",
+            "size": 860410,
+            "sha256": "256e075eca226dd3ae2adddf3212c5ceed21502255352bec099f6cf7b124ee2b"
+          },
+          "settings": {
+            "url": "https://joeyeamigh.github.io/joey-bridgething-apps/s/01a05a38-cf37-768b-9ab6-bb274f8396ea/0.1.0.html",
+            "size": 32515,
+            "sha256": "d465cf331568708287940bb0fd35e45c90ac8372ccd94e3350b17e4aa0397c9a"
+          },
+          "permissions": [],
+          "extension": {
+            "desktop": true,
+            "permissions": [
+              "read:~",
+              "write:~",
+              "net:api.anthropic.com",
+              "net:platform.claude.com",
+              "net:127.0.0.1",
+              "run:security",
+              "env"
+            ]
+          },
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "First release.\n\n- Usage screen: one card per Claude Code account, with a bar and a ticking reset countdown per limit, extra-usage credits when enabled, and a stale badge when a token has expired.\n- Machine screen: tokens per day, the input/cache/output split, top projects and the model mix, read incrementally from the transcript tree.\n- Sessions screen: what is running on this machine right now, with its title, model, branch and context size.\n- Ambient screen: clock, date, and one line saying whether anything needs a person.\n- Optional and off by default: answer Claude Code permission prompts from the dial. Enabling it installs a `PreToolUse` hook that only holds a tool call while someone is at the device; running out of time hands the question back to the terminal."
+        }
+      ]
+    }
+  ],
+  "recommended_sources": []
+}
