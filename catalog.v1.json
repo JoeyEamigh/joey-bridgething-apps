@@ -1,7 +1,7 @@
 {
   "$schema": "https://apps.bridgething.com/schemas/catalog/v1.json",
   "schema": "catalog.v1",
-  "updated_at": "2026-09-01T03:03:24.170Z",
+  "updated_at": "2026-09-01T03:08:42.922Z",
   "repo": {
     "name": "joey's bridgething apps",
     "description": "apps for bridgething by joey",
@@ -12,7 +12,7 @@
     {
       "id": "01a05a38-cf37-768b-9ab6-bb274f8396ea",
       "name": "Claude Usage",
-      "description": "Claude Code limits, machine-wide token history and live sessions",
+      "description": "Claude Code limits, machine-wide token history and live sessions (i was letting claude try out the bridgething agent skills)",
       "author": "Joey",
       "icon": "https://joeyeamigh.github.io/joey-bridgething-apps/icons/01a05a38-cf37-768b-9ab6-bb274f8396ea.png",
       "screenshots": [
@@ -51,7 +51,7 @@
             ]
           },
           "min_libbridgething_version": "0.12.1",
-          "changelog": "First release.\n\n- Usage screen: one card per Claude Code account, with a bar and a ticking reset countdown per limit, extra-usage credits when enabled, and a stale badge when a token has expired.\n- Machine screen: tokens per day, the input/cache/output split, top projects and the model mix, read incrementally from the transcript tree.\n- Sessions screen: what is running on this machine right now, with its title, model, branch and context size.\n- Ambient screen: clock, date, and one line saying whether anything needs a person.\n- Optional and off by default: answer Claude Code permission prompts from the dial. Enabling it installs a `PreToolUse` hook that only holds a tool call while someone is at the device; running out of time hands the question back to the terminal."
+          "changelog": "i let claude make a bridgething app to try out the agent skills lol"
         }
       ]
     }
