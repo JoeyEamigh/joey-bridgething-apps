@@ -1,7 +1,7 @@
 {
   "$schema": "https://apps.bridgething.com/schemas/catalog/v1.json",
   "schema": "catalog.v1",
-  "updated_at": "2026-09-01T03:08:42.922Z",
+  "updated_at": "2026-09-10T16:02:03.497Z",
   "repo": {
     "name": "joey's bridgething apps",
     "description": "apps for bridgething by joey",
@@ -52,6 +52,40 @@
           },
           "min_libbridgething_version": "0.12.1",
           "changelog": "i let claude make a bridgething app to try out the agent skills lol"
+        }
+      ]
+    },
+    {
+      "id": "01a089a2-fcb7-7159-931a-1ea3a3ed5cea",
+      "name": "Wakapi",
+      "description": "Your tracked time, projects and coding activity at a glance.",
+      "author": "Joey Eamigh",
+      "icon": "https://joeyeamigh.github.io/joey-bridgething-apps/icons/01a089a2-fcb7-7159-931a-1ea3a3ed5cea.svg",
+      "screenshots": [
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a089a2-fcb7-7159-931a-1ea3a3ed5cea/1-overview.png",
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a089a2-fcb7-7159-931a-1ea3a3ed5cea/2-projects.png",
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a089a2-fcb7-7159-931a-1ea3a3ed5cea/3-history.png",
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a089a2-fcb7-7159-931a-1ea3a3ed5cea/4-breakdown.png"
+      ],
+      "homepage": "https://github.com/JoeyEamigh/joey-bridgething-apps",
+      "source": "https://github.com/JoeyEamigh/joey-bridgething-apps",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "released_at": "2026-09-10T16:02:03.427Z",
+          "download": {
+            "url": "https://joeyeamigh.github.io/joey-bridgething-apps/r/01a089a2-fcb7-7159-931a-1ea3a3ed5cea/0.1.0.zip",
+            "size": 505554,
+            "sha256": "dc62c8c9ff477159ff413061119ec8ab55157f0c7e21844edf9104c2efe5cfa4"
+          },
+          "settings": {
+            "url": "https://joeyeamigh.github.io/joey-bridgething-apps/s/01a089a2-fcb7-7159-931a-1ea3a3ed5cea/0.1.0.html",
+            "size": 28662,
+            "sha256": "49f8e86fa712e886976a529e5195c347051627d38abb8b50b4627df513f576b4"
+          },
+          "permissions": [],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Daily tracked time, project drilldowns, seven-day and thirty-day history, and activity breakdowns.\n\nAll activity, Exclude AI, and AI only filters apply across every screen. Includes companion settings, offline readings, and rotary, preset, and touch controls."
         }
       ]
     }
