@@ -1,0 +1,112 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #e9eee5;
+  background: #111615;
+  color-scheme: dark;
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 560px;
+  padding: 28px 22px;
+  margin: auto;
+}
+.kicker {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #b4d78f;
+}
+h1 {
+  font-size: 29px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin: 12px 0 8px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 30px 0 18px;
+}
+.intro,
+.hint,
+.status {
+  color: #9cac9f;
+  line-height: 1.6;
+}
+.intro {
+  font-size: 15px;
+  margin: 0 0 28px;
+}
+.hint {
+  font-size: 12px;
+  margin: 8px 0 23px;
+}
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+fieldset:disabled {
+  opacity: 0.6;
+}
+label {
+  display: block;
+  font-size: 14px;
+  margin: 18px 0 9px;
+}
+input,
+select,
+button {
+  font: inherit;
+  font-size: 16px;
+  border-radius: 9px;
+}
+input,
+select {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #39483d;
+  background: #1b241f;
+  color: #edf2e8;
+  min-height: 46px;
+  padding: 10px 12px;
+}
+input:focus,
+select:focus {
+  outline: 2px solid #b4d78f;
+  outline-offset: 2px;
+}
+button {
+  border: 0;
+  background: #b4d78f;
+  color: #172015;
+  padding: 12px 18px;
+  min-height: 46px;
+  cursor: pointer;
+}
+.secondary {
+  background: #27332b;
+  color: #dce7d5;
+}
+.key-field {
+  display: flex;
+  gap: 8px;
+}
+.key-field input {
+  flex: 1;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 28px;
+}
+.status {
+  font-size: 13px;
+  min-height: 22px;
+}

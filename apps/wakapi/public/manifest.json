@@ -1,0 +1,41 @@
+{
+  "id": "01a089a2-fcb7-7159-931a-1ea3a3ed5cea",
+  "name": "Wakapi",
+  "version": "0.1.0",
+  "description": "Your tracked time, projects and coding activity at a glance.",
+  "icon": "icon.svg",
+  "settings": "settings.html",
+  "config": [
+    {
+      "type": "secret",
+      "data": {
+        "key": "connection",
+        "label": "Wakapi connection",
+        "pattern": null,
+        "minLength": null,
+        "maxLength": null,
+        "default": ""
+      }
+    },
+    {
+      "type": "enum",
+      "data": {
+        "key": "activity",
+        "label": "Default activity filter",
+        "choices": ["all", "exclude-ai", "ai"],
+        "default": "all"
+      }
+    },
+    {
+      "type": "enum",
+      "data": {
+        "key": "accent",
+        "label": "Accent",
+        "choices": ["sage", "amber"],
+        "default": "sage"
+      }
+    }
+  ],
+  "permissions": [],
+  "art": { "heroPx": 248, "thumbPx": 96 }
+}
