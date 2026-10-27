@@ -1,7 +1,7 @@
 {
   "$schema": "https://apps.bridgething.com/schemas/catalog/v1.json",
   "schema": "catalog.v1",
-  "updated_at": "2026-09-10T16:02:03.497Z",
+  "updated_at": "2026-10-27T04:53:41.811Z",
   "repo": {
     "name": "joey's bridgething apps",
     "description": "apps for bridgething by joey",
@@ -52,6 +52,43 @@
           },
           "min_libbridgething_version": "0.12.1",
           "changelog": "i let claude make a bridgething app to try out the agent skills lol"
+        }
+      ]
+    },
+    {
+      "id": "01a17b40-a4ec-752a-9de7-ef61626c12d4",
+      "name": "T3 Code",
+      "description": "Threads that need you, subscription limits, and token spend across your T3 Code machines.",
+      "author": "Joey Eamigh",
+      "icon": "https://joeyeamigh.github.io/joey-bridgething-apps/icons/01a17b40-a4ec-752a-9de7-ef61626c12d4.svg",
+      "screenshots": [
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a17b40-a4ec-752a-9de7-ef61626c12d4/1-limits.png",
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a17b40-a4ec-752a-9de7-ef61626c12d4/2-approval.png",
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a17b40-a4ec-752a-9de7-ef61626c12d4/3-working.png",
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a17b40-a4ec-752a-9de7-ef61626c12d4/4-tokens.png",
+        "https://joeyeamigh.github.io/joey-bridgething-apps/screenshots/01a17b40-a4ec-752a-9de7-ef61626c12d4/5-cost.png"
+      ],
+      "homepage": "https://github.com/JoeyEamigh/joey-bridgething-apps",
+      "source": "https://github.com/JoeyEamigh/joey-bridgething-apps",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "released_at": "2026-10-27T04:53:41.804Z",
+          "download": {
+            "url": "https://joeyeamigh.github.io/joey-bridgething-apps/r/01a17b40-a4ec-752a-9de7-ef61626c12d4/0.1.0.zip",
+            "size": 678534,
+            "sha256": "beb733f10234b95ccc21929c9d6e724b88066f12446fec2b454e6e34865f59b3"
+          },
+          "settings": {
+            "url": "https://joeyeamigh.github.io/joey-bridgething-apps/s/01a17b40-a4ec-752a-9de7-ef61626c12d4/0.1.0.html",
+            "size": 32652,
+            "sha256": "87c0104da1110122501f954752012f99fb0fa0e5f7d5304b6303b03e365bc537"
+          },
+          "permissions": [
+            "net.proxy"
+          ],
+          "min_libbridgething_version": "0.14.0",
+          "changelog": "First release."
         }
       ]
     },
