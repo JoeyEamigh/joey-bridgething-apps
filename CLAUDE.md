@@ -14,6 +14,7 @@ Listen with a `keydown` handler and a `wheel` handler on `window`.
 | Mode         | `keydown` key `"m"`                   |
 | Back         | `keydown` key `"Escape"`              |
 | Rotary wheel | `wheel` with horizontal `deltaX`      |
+| Wheel click  | `keydown` key `"Enter"`               |
 | Touch        | pointer and touch events              |
 
 Make horizontal wheel scroll move through the main list. Five fast presses of Mode returns to the launcher.

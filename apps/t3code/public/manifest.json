@@ -1,0 +1,31 @@
+{
+  "id": "01a17b40-a4ec-752a-9de7-ef61626c12d4",
+  "name": "T3 Code",
+  "version": "0.1.0",
+  "description": "Threads that need you, subscription limits, and token spend across your T3 Code machines.",
+  "icon": "icon.svg",
+  "settings": "settings.html",
+  "config": [
+    {
+      "type": "secret",
+      "data": {
+        "key": "account",
+        "label": "T3 Code account",
+        "pattern": null,
+        "minLength": null,
+        "maxLength": null,
+        "default": ""
+      }
+    },
+    {
+      "type": "boolean",
+      "data": {
+        "key": "accountNames",
+        "label": "Show account names on limits",
+        "default": false
+      }
+    }
+  ],
+  "permissions": ["net.proxy"],
+  "art": { "heroPx": 248, "thumbPx": 96 }
+}
